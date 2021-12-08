@@ -47,7 +47,8 @@ main { width: 700px; float: left; padding: 20px;}
 #wrap {width: 100%;margin: 0;border: 0;}
 #mainHeader{height: 85px;background: #131713;}
 #mainHeader h1 {font-size: 40px;padding-top: 10px;}
-#nav ul li {width: 100%; float: none;padding: 15px 20px 0;}
+#nav ul li {width: 100%; float: none;padding: 15px 20px 0;
+            box-sizing: border-box;}
 #nav ul li a{line-height: 40px;border: 1px solid #ccc; border-radius: 10px; background: #fff; color:#000;}
 #nav ul li a:hover {background: yellow; color: #000;}
 #photo img {width: 80%;}
